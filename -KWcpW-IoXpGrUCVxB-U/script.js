@@ -28,10 +28,12 @@
 //  index = index + 1
 //}, 150)
 
+function addDiamond()
+
 setInterval(function() {
 
   var size = 100
-  var time = 2000
+  var time = 1500
 
   var diamond = $(".diamond")
 
@@ -41,7 +43,7 @@ setInterval(function() {
     },
     duration: time  
     })
-}, 20)
+}, 2000)
 
 
                                               
