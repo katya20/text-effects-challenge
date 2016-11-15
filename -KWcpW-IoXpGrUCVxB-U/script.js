@@ -31,7 +31,9 @@ setInterval(function() {
 var x = 50
 var y = 50
 
+var diamond = $('.diamond')
+  diamo.height = 150;
+  theImg.width = 150;
 $('.diamond').css('position', 'absolute');
 $('.diamond').css('top', y);
 $('.diamond').css('left', x);
-$('.diamond').css('size', 15px);
