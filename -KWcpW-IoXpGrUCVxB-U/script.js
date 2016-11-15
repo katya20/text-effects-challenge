@@ -27,3 +27,6 @@ setInterval(function() {
 
   index = index + 1
 }, 150)
+
+var shape = $(".diamond")
+function 
