@@ -28,21 +28,20 @@
 //  index = index + 1
 //}, 150)
 
-setInterval(funtion() {
-            
+setInterval(function() {
 
+  var size = 100
+  var time = 2000
 
-var size = 100
-var time = 2000
+  var diamond = $(".diamond")
 
-var diamond = $(".diamond")
-
-diamond.animate({"font-size": size}, {
-  complete: function() {
-    diamond.animate({"font-size": "0px"},{duration: time})
-  },
-  duration: time  
-  })
+  diamond.animate({"font-size": size}, {
+    complete: function() {
+      diamond.animate({"font-size": "0px"},{duration: time})
+    },
+    duration: time  
+    })
+}, 20)
 
 
                                               
