@@ -28,12 +28,11 @@ setInterval(function() {
   index = index + 1
 }, 150)
 
-var x = 50
-var y = 50
+var x = 100;
+var y = 50;
 
 var diamond = $('.diamond')
   diamond.height = 150;
   diamond.width = 150;
-  diamond.position = absolute;
   diamond.top = y;
-  diamond.left = x);
+  diamond.left = x;
