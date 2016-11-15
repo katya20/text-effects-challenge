@@ -36,9 +36,9 @@ function addDiamond() {
 
 
 
-setInterval(function() {
-  var position = Math.floor((Math.random() * 200) + 1);
-  var size = Math.floor((Math.random() * 200) + 1);
+function addDiamondRandomly() {
+  var position = Math.floor((Math.random() * 400) + 1);
+  var size = Math.floor((Math.random() * 400) + 1);
   var time = 1500
   diamond.css("top", position)
   diamond.css('left', position)
