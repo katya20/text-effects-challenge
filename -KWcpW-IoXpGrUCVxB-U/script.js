@@ -31,7 +31,7 @@
 var x = 100;
 var y = 50;
 
-var diamond = $('.diamond')
+var diamond = document.getElementsByClassName('diamond')
   diamond.height = 150;
   diamond.width = 150;
   diamond.top = y;
