@@ -28,7 +28,10 @@
 //  index = index + 1
 //}, 150)
 
-function addDiamond()
+function addDiamond() {
+  diamond.append();
+  console.log("addDiamond");
+}
 
 setInterval(function() {
 
