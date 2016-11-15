@@ -35,7 +35,7 @@ var time = 2000
 var diamond = $(".diamond")
 diamond.animate({"font-size": size}, {
   complete: function() {
-    diamond.animate({"font-size": "0px"})
+    diamond.animate({"font-size": "0px"}),
   }, duration: time
 }
 )
