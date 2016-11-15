@@ -31,7 +31,7 @@
 var x = 100;
 var y = 50;
 
-$(".diamond").
+$(".diamond").animate({"font-size": "100px"})
 var diamond = document.getElementsByClassName('diamond')
   diamond.height = 150;
   diamond.width = 150;
