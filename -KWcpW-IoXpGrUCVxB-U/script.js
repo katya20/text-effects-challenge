@@ -7,7 +7,7 @@ setInterval(function() {
     $(".blinking").css({"visibility": "visible"});
     shown = true;
   }
-}, 1000)
+}, 500)
 
 
 var lettersToFade = $(".by-letter-fade").children();
