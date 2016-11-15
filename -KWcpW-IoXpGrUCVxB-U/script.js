@@ -31,7 +31,7 @@
 var x = 100;
 var y = 50;
 
-$(".diamond").animate({"font-size": "100px"})
+$(".diamond").animate({"font-size": "100px"},{complete: function() {letterToFade.animate({"font-size})
 var diamond = document.getElementsByClassName('diamond')
   diamond.height = 150;
   diamond.width = 150;
