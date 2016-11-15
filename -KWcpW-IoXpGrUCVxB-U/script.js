@@ -27,19 +27,20 @@
 //
 //  index = index + 1
 //}, 150)
+var diamond = $(".diamond")
 
 function addDiamond() {
   diamond.append();
   console.log("addDiamond");
 }
 
+
+
 setInterval(function() {
 
   var size = 100
   var time = 1500
-
-  var diamond = $(".diamond")
-
+  addDiamond();
   diamond.animate({"font-size": size}, {
     complete: function() {
       diamond.animate({"font-size": "0px"},{duration: time})
