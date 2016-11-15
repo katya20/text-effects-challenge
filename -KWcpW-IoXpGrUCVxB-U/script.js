@@ -31,9 +31,11 @@
 var x = 100;
 var y = 50;
 
-$(".diamond").animate({"font-size": "100px"},{complete: function() {letterToFade.animate({"font-size})
-var diamond = document.getElementsByClassName('diamond')
-  diamond.height = 150;
-  diamond.width = 150;
-  diamond.top = y;
-  diamond.left = x;
+$(".diamond").animate({"font-size": "100px"},{complete: function() {letterToFade.animate({"font-size": "0px"})
+                                                                   }
+                                              
+
+//  diamond.height = 150;
+//  diamond.width = 150;
+//  diamond.top = y;
+//  diamond.left = x;
