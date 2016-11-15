@@ -31,14 +31,14 @@
 var x = 100;
 var y = 50;
 
-setInterval(function() {
+
 var diamond = $(".diamond")
 diamond.animate({"font-size": "100px"},{
   complete: function() {
     diamond.animate({"font-size": "0px"})
-  }
+  }, duratio
 })
-, 200
+
                                               
 
 //  diamond.height = 150;
