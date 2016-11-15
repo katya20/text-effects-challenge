@@ -42,6 +42,7 @@ setInterval(function() {
   var time = 1500
   diamond.css("top", position)
   diamond.css('left', position)
+  diamond.css('position', "absolute")
   addDiamond();
   diamond.animate({"font-size": size}, {
     complete: function() {
