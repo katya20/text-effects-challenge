@@ -28,6 +28,10 @@ setInterval(function() {
   index = index + 1
 }, 150)
 
+var x = 50
+var y = 50
+
 $('.diamond').css('position', 'absolute');
-$('.diamond').css('top', 0); //or wherever you want it
-$('.diamond').css('left', 0);
+$('.diamond').css('top', y);
+$('.diamond').css('left', x);
+$('.diamond').css('size', 15px);
