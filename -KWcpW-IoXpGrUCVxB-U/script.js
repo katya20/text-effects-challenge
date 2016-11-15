@@ -28,17 +28,16 @@
 //  index = index + 1
 //}, 150)
 
-var x = 100;
-var y = 50;
+var size = 100
 var time = 2000
 
 
 var diamond = $(".diamond")
-  diamond.animate({"font-size": "100px"}, {
-    complete: function() {
-      diamond.animate({"font-size": "0px"})
-    }, duration: time
+diamond.animate({"font-size": size}, {
+  complete: function() {
+    diamond.animate({"font-size": "0px"})
   }, duration: time
+}
 )
 
                                               
