@@ -37,10 +37,11 @@ function addDiamond() {
 
 
 setInterval(function() {
-  var y = 
+  var position = Math.floor((Math.random() * 200) + 1);
   var size = Math.floor((Math.random() * 200) + 1);
   var time = 1500
-  diamond.css("top", 
+  diamond.css("top", position)
+  diamond.css('left', position)
   addDiamond();
   diamond.animate({"font-size": size}, {
     complete: function() {
