@@ -46,13 +46,13 @@ function addDiamondRandomly() {
   addDiamond();
   diamond.animate({"font-size": size}, {
     complete: function() {
-      diamond.animate({"font-size": "0px"},{duration: time})
+      diamond.animate({"font-size": "0px"},{duration: time, complete: addDiamondRandomly})
     },
     duration: time  
     })
-}, 2000)
+}
 
-
+addDiamondRandomly()
                                               
 
 //  diamond.height = 150;
