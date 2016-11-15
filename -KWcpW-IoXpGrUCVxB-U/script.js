@@ -28,6 +28,10 @@
 //  index = index + 1
 //}, 150)
 
+setInterval(funtion() {
+            
+
+
 var size = 100
 var time = 2000
 
@@ -39,6 +43,7 @@ diamond.animate({"font-size": size}, {
   },
   duration: time  
   })
+
 
                                               
 
