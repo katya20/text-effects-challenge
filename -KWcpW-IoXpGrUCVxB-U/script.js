@@ -16,15 +16,12 @@ setInterval(function() {
   if (index >= lettersToFade.length) {
     index = 0
   }
-
   var letterToFade = $(lettersToFade[index]);
-
   letterToFade.animate({"opacity": "0"}, {
     complete: function() {
       letterToFade.animate({opacity: "1"})
     }
   }) 	
-
   index = index + 1
 }, 150)
 
